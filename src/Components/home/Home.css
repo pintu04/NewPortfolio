@@ -1,0 +1,199 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    overflow: hidden;
+    margin: 0rem auto;
+    position: relative;
+    background-image: url(../../Assets/pexels-deacan-white-3162911.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.bg {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    z-index: -10;
+    object-fit: cover;
+    height: 75vh;
+    display: none;
+}
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.introIcon {
+    
+    object-fit: cover;
+    margin: 0 0.15rem; 
+    height: 1.50rem;
+    width: 1.50rem;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName {
+    color: yellow;
+}
+.introPara {
+    font-size: 0.90rem;
+    font-weight: 300;
+    letter-spacing: 0.50px;
+    width: 700px;
+    /* word-wrap: break-word; */
+    text-size-adjust: auto;
+}
+.introBtn:hover {
+    background: rgb(226, 226, 226);
+}
+.introBtn {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 0.75rem 1.75rem;
+    margin: 1rem  ;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 600;
+    
+}
+
+@media screen and (max-width: 670px) {
+    .hello {
+        font-size: 1.75rem;
+        /* font-weight: 100; */
+    }
+    .introContent {
+        font-size: 2.5rem;
+    }
+   
+}
+@media screen and (max-width: 570px) {
+    .hello {
+        font-size: 1.5rem;
+        /* font-weight: 100; */
+    }
+    .introContent {
+        font-size: 2.2rem;
+        height: 80vh;
+    }
+   
+}
+@media screen and (max-width: 508px) {
+    .hello {
+        font-size: 1.5rem;
+        /* font-weight: 100; */
+    }
+    .introContent {
+        font-size: 2rem;
+    }
+   
+}
+@media screen and (max-width: 478px) {
+    .hello {
+        font-size: 1.5rem;
+        /* font-weight: 100; */
+    }
+    .introContent {
+        font-size: 1.90rem;
+    }
+   
+}
+@media screen and (max-width: 450px) {
+    .hello {
+        font-size: 1.3rem;
+        /* font-weight: 100; */
+    }
+    .introContent {
+        font-size: 1.75rem;
+    }
+   
+}
+@media screen and ((max-width: 418px)) {
+    .hello {
+        font-size: 1.3rem;
+        /* font-weight: 100; */
+    }
+    .introContent {
+        font-size: 1.60rem;
+        /* height: 80vh; */
+    }
+   
+}
+@media screen and ((max-width: 555px) and (min-width:427px)) {
+    .hello {
+        font-size: 1.5rem;
+        /* font-weight: 100; */
+    }
+    .introContent {
+        font-size: 1.80rem;
+       
+    }
+   
+}
+@media screen and (max-width: 386px) {
+    .hello {
+        font-size: 1.2rem;
+        /* font-weight: 100; */
+    }
+    .introContent {
+        font-size: 1.50rem;
+    }
+    .introPara {
+        font-size: 0.75rem;
+    }
+   
+}
+@media screen and (max-width: 525px) {
+   
+    .introPara {
+        font-size: 0.75rem;
+    }
+   
+}
+
+
+@media screen and (max-width: 768px) {
+     .introPara{
+        width: 600px;
+     }
+}
+@media screen and (max-width: 666px) {
+     .introPara{
+        width: 500px;
+     }
+}
+@media screen and (max-width: 600px) {
+     .introPara{
+        width: 400px;
+     }
+}
+@media screen and (max-width: 458px) {
+     .introPara{
+        width: 300px;
+     }
+}
+
+@media screen and (max-width: 350px) {
+     .introPara{
+        width: 250px;
+     }
+}
+
+
+   
+
+ 

@@ -1,0 +1,137 @@
+#project {
+    overflow: hidden;
+    overflow: hidden;
+    max-width: 55rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.submitBtnn:hover{
+  background: white;
+  color: black;
+}
+.submitBtnn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 0.50rem 3rem;
+  border-radius: 0.2rem;
+  margin: 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.projectName {
+    /* text-align: center; */
+    font-weight: 600;
+    font-size: 2.50rem;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectImage {
+    /* width: auto;
+    max-width: 14rem;
+    max-height: 14rem;
+    height: auto; */
+    width: 35vh;
+    height: 35vh;
+    padding: 2rem 2rem;
+}
+.projectContainer {
+    display: flex;
+    justify-content: center;   
+    flex-wrap: wrap;
+}
+
+.projectBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #A25772;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    
+}
+
+.projectLink {
+    /* border: 1px solid red; */
+    color: rgb(231, 228, 228);
+    /* background: #af466b; */
+    background: yellow;
+    color:rgb(12, 1, 7);
+    font-weight: 600;
+    border-radius: 2px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nm {
+    color: yellow;
+    font-size: 1.20rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 864px){
+    .projectImage {
+        max-width: 35vh;
+        max-height: 35vh;
+        width: 100%;
+        height: auto;
+        /* object-fit: cover; */
+    }
+    
+}
+@media screen and (max-width: 774px){
+  .projectImage {
+    max-width: 30vh;
+    max-height: 30vh;
+  }
+    
+}
+@media screen and (max-width: 690px){
+  .projectImage {
+    max-width: 38vh;
+    max-height: 38vh;
+  }
+    
+}
+@media screen and (max-width: 549px){
+  .projectImage {
+    max-width: 30vh;
+    max-height: 30vh;
+  }
+    
+}
+@media screen and (max-width: 460px){
+  .projectImage {
+    max-width: 25vh;
+    max-height: 25vh;
+  }
+    
+}
+@media screen and (max-width: 404px){
+  .projectImage {
+    max-width: 38vh;
+    max-height: 38vh;
+  }
+    
+}
+@media screen and (max-width: 375px){
+  .title {
+    font-size: 0.90rem;
+    text-align: center;
+  }
+    
+}
+

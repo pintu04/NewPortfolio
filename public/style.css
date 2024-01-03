@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    
+}
+ html {
+
+     scroll-behavior: smooth;
+ }
+body {
+    scrollbar-color: auto red; 
+    background: rgb(30, 30, 30);
+    color: white;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+    font-family: 'Poppins', sans-serif;
+}
